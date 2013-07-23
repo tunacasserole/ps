@@ -462,21 +462,21 @@ Ext.define('Ps.view.cases.Explorer', {
         //   dataIndex    : 'bus_proc_instance',
         //   flex         : 1
         // },
-        // {
-        //   header       : this.rc_categoryLabel,
-        //   dataIndex    : 'rc_category',
-        //   flex         : 1
-        // },
-        // {
-        //   header       : this.rc_typeLabel,
-        //   dataIndex    : 'rc_type',
-        //   flex         : 1
-        // },
-        // {
-        //   header       : this.rc_detailLabel,
-        //   dataIndex    : 'rc_detail',
-        //   flex         : 1
-        // },
+        {
+          header       : this.rc_categoryLabel,
+          dataIndex    : 'rc_category',
+          flex         : 1
+        },
+        {
+          header       : this.rc_typeLabel,
+          dataIndex    : 'rc_type',
+          flex         : 1
+        },
+        {
+          header       : this.rc_detailLabel,
+          dataIndex    : 'rc_detail',
+          flex         : 1
+        },
         // {
         //   header       : this.problem_typeLabel,
         //   dataIndex    : 'problem_type',
