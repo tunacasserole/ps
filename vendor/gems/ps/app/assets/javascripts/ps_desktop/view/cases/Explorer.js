@@ -417,11 +417,11 @@ Ext.define('Ps.view.cases.Explorer', {
         //   dataIndex    : 'provider_grp_id',
         //   flex         : 1
         // },
-        {
-          header       : this.assigned_toLabel,
-          dataIndex    : 'assigned_to',
-          flex         : 1
-        },
+        // {
+        //   header       : this.assigned_toLabel,
+        //   dataIndex    : 'assigned_to',
+        //   flex         : 1
+        // },
         // {
         //   header       : this.prior_prvdr_grp_idLabel,
         //   dataIndex    : 'prior_prvdr_grp_id',
