@@ -1,10 +1,9 @@
 //= require      buildit_desktop
+//= require_tree ./ps_desktop/controller
 //= require_tree ./ps_desktop/logic
 //= require_tree ./ps_desktop/model
 //= require_tree ./ps_desktop/store
 //= require_tree ./ps_desktop/view
-//= require_tree ./ps_desktop/controller
-
 
 
 Buildit.desktopApplication({
